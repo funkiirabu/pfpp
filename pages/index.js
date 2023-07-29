@@ -1,4 +1,4 @@
-import ConnectWallet from '../components/ConnectWallet';
+import ListNFTButton from '../components/ListNFTButton';
 
 function Home() {
   return (
@@ -8,6 +8,7 @@ function Home() {
         This is a (DApp) that allows you to use your NFTs as collateral
         for loans. To get started, connect your wallet.
       </p>
+      <ListNFTButton />
     </div>
   );
 }
